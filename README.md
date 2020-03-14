@@ -1,5 +1,3 @@
-# Machine Learning
+# Learning
 
-###### Un-Supervised learning
-###### Supervised learning
-###### Reinforcement  learning
+This contains learnings Computer logics

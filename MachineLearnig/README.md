@@ -1,8 +1,6 @@
-# Reinforcement Learning
+# Machine Learning
 
-## Sumo (Simulation of Urban Mobility)
-
-This is tool for Simulation of generating traffic network. You need to create the Junctions, then join them with edges (roads) and create network then finally create route file (populate with traffic). For details watch the videos
-1.  https://youtu.be/9MyIABer_NY
-2.  https://youtu.be/LWecm_rCPJw
-3.  https://youtu.be/R6v7wDkvXrk
+Machine Learning (ML) is a sub part of Artificial Intelligence (AI). Machine Learning is further studied in three types
+1. _Supervised learning_
+2.  _Un-_Supervised learning_
+3.  _Reinforcement learning_
