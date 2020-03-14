@@ -1,3 +1,3 @@
-# Learning
+# Learnings
 
-This contains learnings Computer logics
+####_This contains learnings Computer logics_
