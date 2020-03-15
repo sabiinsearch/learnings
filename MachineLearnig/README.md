@@ -8,4 +8,4 @@
 
 ## Reinforcement learning ##
 
-  There are many ways for Reinforcement learning like using ######Q function###### and ######V function######. To understand Q-Learning visit https://youtu.be/LzaWrmKL1Z4 and learn about Deep Q-learn (DQN) visit https://youtu.be/OYhFoMySoVs
+  There are many ways for Reinforcement learning like using ###### Q function ###### and ###### V function ######. To understand Q-Learning visit https://youtu.be/LzaWrmKL1Z4 and learn about Deep Q-learn (DQN) visit https://youtu.be/OYhFoMySoVs
