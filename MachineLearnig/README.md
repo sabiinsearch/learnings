@@ -10,4 +10,4 @@
 
   There are many ways for Reinforcement learning like using **_Q function_**  and **_V function_**. Further, to understand **Q-Learning** visit https://youtu.be/LzaWrmKL1Z4 and learn about **Deep Q-learn (DQN)** visit https://youtu.be/OYhFoMySoVs
 
-  # Creating Simple neuron
+  ## Creating a Simple neuron##
