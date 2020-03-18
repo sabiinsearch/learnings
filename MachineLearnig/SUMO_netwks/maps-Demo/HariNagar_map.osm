@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"? >
+< ?xml version="1.0" encoding="UTF-8"? >
 <osm version="0.6" generator="CGImap 0.8.1 (30905 thorn-03.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
  <bounds minlat="28.6223400" minlon="77.1055600" maxlat="28.6271000" maxlon="77.1158900"/>
  <node id="316376937" visible="true" version="1" changeset="68784" timestamp="2008-12-03T05:55:52Z" user="thevikas" uid="17429" lat="28.6232672" lon="77.1022457"/>
