@@ -5,7 +5,7 @@
  <node id="316376946" visible="true" version="2" changeset="1589362" timestamp="2009-06-22T00:06:14Z" user="roemcke" uid="46622" lat="28.6250157" lon="77.1014862">
   <tag k="highway" v="traffic_signals"/>
  </node>
- <node id= "316376947" visible="true" version="2" changeset="1589362" timestamp="2009-06-22T00:06:14Z" user="roemcke" uid="46622" lat="28.6249778" lon="77.1013818">
+ <node id="316376947" visible="true" version="2" changeset="1589362" timestamp="2009-06-22T00:06:14Z" user="roemcke" uid="46622" lat="28.6249778" lon="77.1013818">
   <tag k="highway" v="traffic_signals"/>
  </node>
  <node id="427833934" visible="true" version="1" changeset="1589362" timestamp="2009-06-22T00:05:55Z" user="roemcke" uid="46622" lat="28.6245989" lon="77.1003088"/>
