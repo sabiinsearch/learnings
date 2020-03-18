@@ -1,4 +1,4 @@
-<configuration>
+<configuration> 
   <input>
     <net-file value="my_net.net.xml"/>
     <route-files value="my_route.rou.xml" />
