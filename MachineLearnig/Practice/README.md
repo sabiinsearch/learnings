@@ -1,4 +1,3 @@
 # Check the code in the scripts #
 
-
- ###### **Simple_neuron_netwk** ###### _Learn to create Simple Neuron Network_
+##Learn to create Simple Neuron Network## _**Simple_neuron_netwk**_ 
