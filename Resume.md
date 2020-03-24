@@ -12,6 +12,6 @@
 
 5.  Learning and practicing different Machine Learning Concepts from last 01 Year.
 
-6.  Hands on with different ML concepts Supervised, Un-supervised and Reinforcement Learning using jupyter notebook and various libraries like Numpy, Matplotlib, Tensor Flow etc.
+6.  Hands on with different ML concepts Supervised, Un-supervised and Reinforcement Learning using jupyter notebook,  Google Colab and various libraries like Numpy, Matplotlib, Tensor Flow etc.
 
  Keen to learn various logics used in Machine Learning and find solutions for different problems like Image recognition, Text classification, Sentiment Analysis using Deep Neural Networks (Convolution Neural Network etc). Have inclination towards the topic.
