@@ -2,3 +2,4 @@
 
 ## Learn to create Simple Neuron Network ##          
  ###### _Simple_neuron_netwk.ipynb_ ######
+ Watch the link https://youtu.be/kft1AJ9WVDk
