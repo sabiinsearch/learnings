@@ -14,5 +14,6 @@
 
 6.    Hands on with different ML concepts Supervised, Un-supervised and Reinforcement Learning using jupyter notebook,  Google Colab and various libraries like Numpy, Matplotlib, Tensor Flow etc.
 
-7.    Visit my Github repository  ###### github.com/sabiinsearch ###### 
+7.    Visit my Github repository  github.com/sabiinsearch 
+
 Keen to learn various logics used in Machine Learning and find solutions for different problems like Image recognition, Text classification, Sentiment Analysis using Deep Neural Networks (Convolution Neural Network etc). Have inclination towards the topic.
