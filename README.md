@@ -26,7 +26,7 @@ which we will use in conjunction with our kaggle.json file to import the data di
 
 The next line uses a built-in Colab file tool which allow us to upload “kaggle.json” to the notebook. Simply execute the following command and use the button that appears to upload the file.
 
-from google.colab import files
-files.upload()
+#### from google.colab import files
+#### files.upload()
 
 The Kaggle API needs that file to be in a specific location for the authentication process. Just trust me on this one. Execute this command to create the directory and place the file.
