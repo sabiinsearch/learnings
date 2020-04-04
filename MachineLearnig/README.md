@@ -16,6 +16,7 @@ For futher examples please visit the above **_Practice_** folder
   Watch the link _https://youtu.be/kft1AJ9WVDk_
 
 #### **Note**
-**_final input = initial input of the model_**
+while **prediction** _input = initial input of the model_
 
-if input is numpy array, then we can use ###### numpy.resize(a, new_shape) {_where a = old array_}
+if input is numpy array, then we can use
+###### numpy.resize(a, new_shape) {_where a = old array_}
