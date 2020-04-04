@@ -14,3 +14,7 @@ For futher examples please visit the above **_Practice_** folder
   ## Creating a Simple neuron ##
 
   Watch the link _https://youtu.be/kft1AJ9WVDk_
+
+**_final input = initial input of the model_**
+
+if input is numpy array, then we can use ###### numpy.resize(a, new_shape) {_where a = old array_}
