@@ -15,7 +15,7 @@ For futher examples please visit the above **_Practice_** folder
 
   Watch the link _https://youtu.be/kft1AJ9WVDk_
 
-#### **Note**
+## **Note**
 while **prediction** _input = initial input of the model_
 
 if input is numpy array, then we can use
