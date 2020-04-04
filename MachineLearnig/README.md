@@ -7,6 +7,13 @@
 3.  _Reinforcement learning_
 
 For futher examples please visit the above **_Practice_** folder
+
+## **Note -**
+while **prediction** _input = initial input of the model_
+
+if input is numpy array, then we can use
+###### numpy.resize(a, new_shape) {_where a = old array_}
+
 ## **Reinforcement learning** ##
 
   There are many ways for Reinforcement learning like using **_Q function_**  and **_V function_**. Further, to understand **Q-Learning** visit https://youtu.be/LzaWrmKL1Z4 and learn about **Deep Q-learn (DQN)** visit https://youtu.be/OYhFoMySoVs
@@ -14,9 +21,3 @@ For futher examples please visit the above **_Practice_** folder
   ## Creating a Simple neuron ##
 
   Watch the link _https://youtu.be/kft1AJ9WVDk_
-
-## **Note -**
-while **prediction** _input = initial input of the model_
-
-if input is numpy array, then we can use
-###### numpy.resize(a, new_shape) {_where a = old array_}
