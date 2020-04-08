@@ -13,10 +13,10 @@ For futher examples please visit the above **_Practice_** folder
 ## 2.     **Un-Supervised Learning**
 
 #### **Note -**
-while **prediction** _input = initial input of the model_
+while **prediction** , _input = initial input of the model_
 
 if input is numpy array, then we can use
-###### numpy.resize(a, new_shape) {_where a = old array_}
+##### numpy.resize(a, new_shape) {_where a = old array_}
 
 ## 3.     **Reinforcement learning** ##
 
