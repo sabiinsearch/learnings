@@ -26,4 +26,5 @@ if input is numpy array, then we can use
 
   Watch the link _https://youtu.be/kft1AJ9WVDk_
 
-  ##**Computer Vision**##  It is the ability to see and perceive the world comes naturally to us humans. And there are some common challenges data scientists face when transitioning into computer vision. There is a library _**OpenCV**_. With the help of this librar there are various operations which are handled very easily. For the details visit the link _https://www.analyticsvidhya.com/blog/2019/03/opencv-functions-computer-vision-python/_
+  ## **Computer Vision** ##
+  It is the ability to see and perceive the world comes naturally to us humans. And there are some common challenges data scientists face when transitioning into computer vision. There is a library _**OpenCV**_. With the help of this librar there are various operations which are handled very easily. For the details visit the link _https://www.analyticsvidhya.com/blog/2019/03/opencv-functions-computer-vision-python/_
