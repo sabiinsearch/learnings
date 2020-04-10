@@ -29,4 +29,4 @@ if input is numpy array, then we can use
   ## **Computer Vision** ##
   It is the ability to see and perceive the world comes naturally to us humans. And there are some common challenges data scientists face when transitioning into computer vision. There is a library **OpenCV**. With the help of this librar there are various operations which are handled very easily.
 
-  **To learn how to install OpenCV library _go to** https://linuxize.com/post/how-to-install-opencv-on-ubuntu-18-04/ the and for the details visit the link _https://www.analyticsvidhya.com/blog/2019/03/opencv-functions-computer-vision-python/_
+  **To learn how to install OpenCV library** go to https://linuxize.com/post/how-to-install-opencv-on-ubuntu-18-04/ the and for the details visit the link _https://www.analyticsvidhya.com/blog/2019/03/opencv-functions-computer-vision-python/_
