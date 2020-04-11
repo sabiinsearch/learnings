@@ -22,11 +22,11 @@ if input is numpy array, then we can use
 
   There are many ways for Reinforcement learning like using **_Q function_**  and **_V function_**. Further, to understand **Q-Learning** visit https://youtu.be/LzaWrmKL1Z4 and learn about **Deep Q-learn (DQN)** visit https://youtu.be/OYhFoMySoVs
 
-  ## Creating a Simple neuron ##
+  ### **- Creating a Simple neuron** ###
 
   learn to create a simple neuron _https://youtu.be/kft1AJ9WVDk_
 
-  ### **Computer Vision** ###
+  ### **- Computer Vision** ###
   It is the ability to see and perceive the world comes naturally to us humans. And there are some common challenges data scientists face when transitioning into computer vision. There is a library **OpenCV**. With the help of this librar there are various operations which are handled very easily.
 
   **To learn how to install OpenCV library** go to https://linuxize.com/post/how-to-install-opencv-on-ubuntu-18-04/ the and to learn the use and functions of libraby visit the link _https://www.analyticsvidhya.com/blog/2019/03/opencv-functions-computer-vision-python/_
