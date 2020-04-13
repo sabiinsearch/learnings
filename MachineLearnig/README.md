@@ -20,7 +20,11 @@ if input is numpy array, then we can use
 
 ## 3.     **Reinforcement learning** ##
 
-  There are many ways for Reinforcement learning like using **_Q function_**  and **_V function_**. Further, to understand **Q-Learning** visit https://youtu.be/LzaWrmKL1Z4 and learn about **Deep Q-learn (DQN)** visit https://youtu.be/OYhFoMySoVs
+  There are many ways for Reinforcement learning like using **_Q function_**  and **_V function_**. Further, to understand **Q-Learning** visit https://youtu.be/LzaWrmKL1Z4 and learn about **Deep Q-learn (DQN)** visit https://youtu.be/OYhFoMySoVs8
+
+  ### **- Making a custom environment in gym**
+
+  Gym is a toolkit for developing and comparing Reinforcement Learning algorithms. It is implemented in Python and R(though the former is primarily used) and can be used to make your code for training RL models short, simple and easy-to-read. For details go through _https://medium.com/@apoddar573/making-your-own-custom-environment-in-gym-c3b65ff8cdaa_
 
   ### **- Creating a Simple neuron** ###
 
