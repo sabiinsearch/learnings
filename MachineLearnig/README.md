@@ -24,7 +24,7 @@ if input is numpy array, then we can use
 
   ### **- Making a custom environment in gym**
 
-  Gym is a toolkit for developing and comparing Reinforcement Learning algorithms. It is implemented in Python and R(though the former is primarily used) and can be used to make your code for training RL models short, simple and easy-to-read. For details go through _https://medium.com/@apoddar573/making-your-own-custom-environment-in-gym-c3b65ff8cdaa_
+  **Gym** is a toolkit for developing and comparing Reinforcement Learning algorithms. It is implemented in Python and R(though the former is primarily used) and can be used to make your code for training RL models short, simple and easy-to-read. For details go through _https://medium.com/@apoddar573/making-your-own-custom-environment-in-gym-c3b65ff8cdaa_
 
   ### **- Creating a Simple neuron** ###
 
