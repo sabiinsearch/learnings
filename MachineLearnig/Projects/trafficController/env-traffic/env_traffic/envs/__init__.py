@@ -1,1 +1,1 @@
-from gym_foo.envs.foo_env import Traffic_Env
+from env_traffic.envs.traffic_env import Traffic_Env
