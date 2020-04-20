@@ -1,1 +1,1 @@
-from env_traffic.envs.traffic_env import Traffic_Env
+from envs.envs_traffic.traffic_env import Traffic_Env
