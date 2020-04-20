@@ -1,7 +1,0 @@
-README.md
-setup.py
-env_taffic.egg-info/PKG-INFO
-env_taffic.egg-info/SOURCES.txt
-env_taffic.egg-info/dependency_links.txt
-env_taffic.egg-info/requires.txt
-env_taffic.egg-info/top_level.txt
