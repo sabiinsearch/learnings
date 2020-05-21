@@ -26,6 +26,20 @@ if input is numpy array, then we can use
 
   **Gym** is a toolkit for developing and comparing Reinforcement Learning algorithms. It is implemented in Python and R(though the former is primarily used) and can be used to make your code for training RL models short, simple and easy-to-read. For details go through _https://medium.com/@apoddar573/making-your-own-custom-environment-in-gym-c3b65ff8cdaa_
 
+  ### **- Train a Deep Q Network with TF-Agents**
+
+#### To install the Dependencies _run_
+
+sudo apt-get install -y xvfb ffmpeg
+pip install -q 'gym==0.10.11'
+pip install -q 'imageio==2.4.0'
+pip install -q PILLOW
+pip install -q 'pyglet==1.3.2'
+pip install -q pyvirtualdisplay
+pip install -q --upgrade tensorflow-probability
+pip install -q tf-agents
+
+
   ### **- Creating a Simple neuron** ###
 
   learn to create a simple neuron _https://youtu.be/kft1AJ9WVDk_
