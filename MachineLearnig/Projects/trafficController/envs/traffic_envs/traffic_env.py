@@ -3,7 +3,7 @@ import numpy as np
 from gym import error, spaces, utils
 from gym.utils import seeding
 
-class Traffic_Env(gym.Env):
+class TrafficEnv(gym.Env):
 
     def __init__(self):
         self.action_space = spaces.Discrete(4)
