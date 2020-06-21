@@ -1,7 +1,0 @@
-README.md
-setup.py
-env_Traffic.egg-info/PKG-INFO
-env_Traffic.egg-info/SOURCES.txt
-env_Traffic.egg-info/dependency_links.txt
-env_Traffic.egg-info/requires.txt
-env_Traffic.egg-info/top_level.txt
