@@ -9,6 +9,7 @@ The Blender 3D application is a popular, free and open-source toolset for creati
 
 It can be intalled and launched  Ubuntu through:
 
-    The Official Blender website (UI based installation)
+    The Official Blender website (https://www.blender.org/download/)
     The Ubuntu Software Manager (UI based installation)
     Through Snap, and through PPA repository (command-line based installation)
+**_Refer_** - https://vitux.com/how-to-install-blender-3d-on-ubuntu/ 
