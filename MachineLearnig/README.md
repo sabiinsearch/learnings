@@ -20,7 +20,7 @@ if input is numpy array, then we can use
 
 ## 3.     **Reinforcement learning** ##
 
-  There are many ways for Reinforcement learning like using **_Q function_**  and **_V function_**. Further, to understand **Q-Learning** visit https://youtu.be/LzaWrmKL1Z4 and learn about **Deep Q-learn (DQN)** visit https://youtu.be/OYhFoMySoVs8
+  There are many ways for Reinforcement learning. It is done using **_Q function_**  and **_V function_**. Further, to understand **Q-Learning** visit https://youtu.be/LzaWrmKL1Z4 and to learn about **Deep Q-learn (DQN)** visit https://youtu.be/OYhFoMySoVs8
 
   ### **- Making a custom environment in gym**
 
