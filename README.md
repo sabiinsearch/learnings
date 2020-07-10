@@ -13,3 +13,7 @@ It can be intalled and launched  Ubuntu through:
     The Ubuntu Software Manager (UI based installation)
     Through Snap, and through PPA repository (command-line based installation)
 **_Refer_** - https://vitux.com/how-to-install-blender-3d-on-ubuntu/
+
+## Importing EasyEda designs
+  1.   Export final designed file as EasyEda json file and upload it to https://wokwi.com/easyeda2kicad
+  2.   Save it and open it in KiCad pcb editor
