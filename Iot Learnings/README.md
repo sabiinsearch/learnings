@@ -1,5 +1,5 @@
 
-## IoT Learnings
+## Learnings - Internet Of Things (IoT)
 
 ### Tools used for Internet Of Things
 
