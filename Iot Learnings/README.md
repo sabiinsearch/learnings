@@ -19,3 +19,5 @@ It can be intalled and launched  Ubuntu through:
 
   1.   Export final designed file as EasyEda json file and upload it to https://wokwi.com/easyeda2kicad
   2.   Save it and open it in KiCad pcb editor
+
+## Uploading code to Blue pill (Stm32f103C8T6)
