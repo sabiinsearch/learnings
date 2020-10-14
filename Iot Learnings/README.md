@@ -21,3 +21,7 @@ It can be intalled and launched  Ubuntu through:
   2.   Save it and open it in KiCad pcb editor
 
 ## Uploading code to Blue pill (Stm32f103C8T6)
+
+  1.  First install Stm32CubeProgrammer  https://askubuntu.com/questions/1195872/how-to-install-stm32cubeprogrammer-in-linux
+
+  2.  
