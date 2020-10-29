@@ -24,12 +24,17 @@ follow the link ###### https://www.tecmint.com/reset-forgotten-root-password-in-
 2.   After writing the OS image on the SD Card, keep it plugged in the memory card reader.Open the folder named "boot" from drives menu.Add a new text document, don't write anything in it. It has to be blank. But change the name of the document to 'ssh' and save.safely remove the SD Card. Now SSH is enabled.
 
 3.   To add/edit WiFi credentials add a file named _'wpa_supplicant.conf'_ in the boot folder of the SD Card. The content of that file are as follow:-
-######
-ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
-update_config=1
 
-network={
-ssid="MySSID"
-psk="MyPassword"
-}
-######
+   ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
+
+    update_config=1
+
+
+    network={
+
+    ssid="MySSID"
+
+    psk="MyPassword"
+
+    }
+    
