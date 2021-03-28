@@ -1,0 +1,1 @@
+Learnng various aspects like
