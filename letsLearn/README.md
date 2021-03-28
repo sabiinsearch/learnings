@@ -1,1 +1,2 @@
-Learnng
+Learnng various aspects like
+* java 
