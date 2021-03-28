@@ -1,2 +1,2 @@
 Learnng various aspects like
-* java 
+**java**
