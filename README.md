@@ -13,7 +13,7 @@ Include learning with videos, literature, and useful links in various fields
 
 
 ## Reset root password in Ubuntu
-follow the link ###### https://www.tecmint.com/reset-forgotten-root-password-in-ubuntu/
+follow the link  https://www.tecmint.com/reset-forgotten-root-password-in-ubuntu/
 
 ## Getting ready with Rasberrypi
 
