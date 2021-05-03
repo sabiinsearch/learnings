@@ -16,7 +16,7 @@
      
      1.    Create a 'Dockerfile' in root of your project
 
-     2.    Add content in  the *Dockerfile*
+     2.    Add content in  the **_Dockerfile_**
 
 
      Refer https://spring.io/blog/2018/11/08/spring-boot-in-a-container
