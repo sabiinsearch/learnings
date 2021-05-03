@@ -15,9 +15,17 @@
 
    2.    Make sure that the name of the _Dockerfile_ and there is **_no_** extension of this file
 
-   3.    Add content in  the **_'Dockerfile'_**
+   3.    Add content in  the **_'Dockerfile'_** as in reference below.
 
-   4.     
+   4.    Go to the directory where your **_Dockerfile_** in terminal
+
+   5.    Run the command **$docker build -t spring-mysql .** (where _spring-mysql_ is name
+         of the image to be created using the _Dockerfile_. And the dot **.** tells that
+         location of the _Dockerfile_.
+
+   6.    Now run that image by the command at terminial 
+         **$docker run -d -p 8089:8089 --name my-spring-app spring-mysql** {where _-d_ tells to run it in _dettached_ mode _p_ tells the port no. (edit in application.properties also) _--name_ tells the name the container, and _spring-mysql_ tells the name of the image to run}
+
 
 
      Refer https://spring.io/blog/2018/11/08/spring-boot-in-a-container
