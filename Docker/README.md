@@ -9,7 +9,7 @@
 
    4.    Check if your jar is created and placed in **_'target folder'_** 
 
-#### Spring boot application in Docker container
+#### <ins>Spring boot application in Docker container</ins>
      
    1.    Create a **_'Dockerfile'_** in root of your project
 
@@ -29,13 +29,13 @@
 
      Refer https://spring.io/blog/2018/11/08/spring-boot-in-a-container
 
-####  Develop Sprint-boot and MySQL application and run in one docker
+####  <ins>Develop Sprint-boot and MySQL application and run in one docker</ins>
 
      For the above go to the links 
      1.   https://medium.com/thecodefountain/develop-a-spring-boot-and-mysql-application-and-run-in-docker-end-to-end-15b7cdf3a2ba
 
      2.   https://dzone.com/articles/all-about-hibernate-manytomany-association
 
-#### Multi-Containers
+#### <ins>Multi-Containers</ins>
      
      For learning Structure/framework of multi-containers refer https://docs.docker.com/get-started/07_multi_container/
