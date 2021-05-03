@@ -1,5 +1,5 @@
 
-#### <u>Java application (Spring boot) to jar</u>
+#### <ins>Java application (Spring boot) to jar</ins>
 
    1.    If your project is maven project.
 
