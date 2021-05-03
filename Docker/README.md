@@ -1,9 +1,9 @@
 
-#### Java application (Spring boot) to jar
+#### <u>Java application (Spring boot) to jar</u>
 
    1.    If your project is maven project.
 
-   2.    Add or check ur **_pom.xml_** file of the project for _packaging_ tag
+   2.    Add or check ur **_pom.xml_** file of the project for **_packaging_** tag
 
    3.    Go to the **_root folder of your project_** and run **_$mvn package_**
 
