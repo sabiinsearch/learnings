@@ -13,9 +13,9 @@
      
    1.    Create a 'Dockerfile' in root of your project
 
-   2.    Add content in  the **_'Dockerfile'_**
+   2.    Make sure that the name of the _Dockerfile_ and there is **_no_** extension of this file
 
-   3.    Make sure that the name of the _Dockerfile_ and there is **_no_** extension of this file
+   3.    Add content in  the **_'Dockerfile'_**
 
    4.     
 
