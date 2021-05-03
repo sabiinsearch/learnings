@@ -3,7 +3,7 @@
 
    1.    If your project is maven project.
 
-   2.    Add or check ur _pom.xml_ file for _<packaging>jar</packaging>_ tag
+   2.    Add or check ur **_pom.xml_** file of the project for _packaging_ tag
 
    3.    run **_$mvn package_**
 
