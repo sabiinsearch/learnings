@@ -1,0 +1,5 @@
+{
+    "configuration": "upload_method=DFUUploadMethod,cpu_speed=speed_72mhz,opt=osstd",
+    "board": "arduino:avr:genericSTM32F103C6",
+    "port": "/dev/ttyS0"
+}
