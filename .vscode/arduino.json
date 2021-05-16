@@ -1,5 +1,6 @@
 {
     "configuration": "upload_method=DFUUploadMethod,cpu_speed=speed_72mhz,opt=osstd",
     "board": "arduino:avr:genericSTM32F103C6",
-    "port": "/dev/ttyS0"
+    "port": "/dev/ttyS0",
+    "sketch": "../IoT/Code/STM32/Arduino_STM32/STM32F4/libraries/STM32F4_ADC/examples/MultiChannel_noDMA/MultiChannel_noDMA.ino"
 }
