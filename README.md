@@ -25,7 +25,7 @@ follow the link  https://www.tecmint.com/reset-forgotten-root-password-in-ubuntu
 
 3.   To add/edit WiFi credentials add a file named _'wpa_supplicant.conf'_ in the boot folder of the SD Card. The content of that file are as follow:-
 
-   country=INdia
+   country=IN
    ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
    update_config=1
 
