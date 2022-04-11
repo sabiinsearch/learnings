@@ -24,4 +24,7 @@ It can be intalled and launched  Ubuntu through:
 
   1.  First install Stm32CubeProgrammer  https://askubuntu.com/questions/1195872/how-to-install-stm32cubeprogrammer-in-linux
 
-  2.  
+## To learning BLE with nrf52840 dongle
+  1.  click  https://www.novelbits.io/nrf52840-usb-dongle-tutorial-3/
+
+  2.  To generate UUIDs refer  https://www.guidgenerator.com/online-guid-generator.aspx
