@@ -31,11 +31,12 @@ It can be intalled and launched  Ubuntu through:
 
 ##  For Custom GATT Service and Characterstics
 
-  -  # Create own service header as
+  -  ## Create own service header as
 
      1. First, the usual conditional #define  needed to avoid duplicate #include of the same header file.
 
-           ''''#ifndef SIMPLE_SERVICE_H
+          ''''
+               #ifndef SIMPLE_SERVICE_H
                #define SIMPLE_SERVICE_H
           ''''
      2. Then we include the files needed.
