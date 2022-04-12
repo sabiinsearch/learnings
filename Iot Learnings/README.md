@@ -34,6 +34,11 @@ It can be intalled and launched  Ubuntu through:
   -  # Create own service header as
 
      1. First, the usual conditional #define  needed to avoid duplicate #include of the same header file.
+
      2. Then we include the files needed.
-     3. The source code used to define a macro that can be used to instantiate the our custom service.
-     4. 
+
+     3. The source code used to define a macro that can be used to instantiate the our custom service.(a brief Macro for defining a ble_simple_service_t instance.)
+     
+     4. Next, we define the events that we want to report back to the application. These events are ones that we need to act upon at the application level. For example, to turn on/off an LED or record the occurrence of an event (such as in the case of notifications being enabled/disabled). It is good practice to leave these kinds of decisions and actions to happen at the application level. We want to have the service be as dumb as possible so that it can be reused by other applications without having to change the service’s implementation.
+
+     5.  
