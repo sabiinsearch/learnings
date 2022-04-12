@@ -31,4 +31,9 @@ It can be intalled and launched  Ubuntu through:
 
 ##  For Custom GATT Service and Characterstics
 
-  1.  Create
+  -  # Create own service header as
+
+     1. First, the usual conditional #define  needed to avoid duplicate #include of the same header file.
+     2. Then we include the files needed.
+     3. The source code used to define a macro that can be used to instantiate the our custom service.
+     4. 
