@@ -24,7 +24,7 @@ It can be intalled and launched  Ubuntu through:
 
   1.  First install Stm32CubeProgrammer  https://askubuntu.com/questions/1195872/how-to-install-stm32cubeprogrammer-in-linux
 
-##  Commands for stm32
+##  stm32
 ######    STM32_Programmer_CLI -c port=swd mode=UR -fwupgrade stm32wb5x_FUS_fw_for_fus_0_5_3.bin 0x080EC000 firstinstall=0
 
 ######    STM32_Programmer_CLI -c port=swd mode=UR -fwupgrade stm32wb5x_FUS_fw_for_fus_0_5_3.bin 0x080EC000 firstinstall=0
@@ -35,7 +35,7 @@ It can be intalled and launched  Ubuntu through:
 
 ##  Nrf52840
   1.  Download nrfconnect-launcher for Desktop
-    ###### https://github.com/NordicSemiconductor/pc-nrfconnect-launcher/releases
+     https://github.com/NordicSemiconductor/pc-nrfconnect-launcher/releases
 
   2.  Right click and set executable properties under permissions
 
