@@ -42,4 +42,3 @@ follow the link  https://www.tecmint.com/reset-forgotten-root-password-in-ubuntu
          key_mgmt=WPA-PSK
          priority=1
 }
-
