@@ -24,6 +24,15 @@ It can be intalled and launched  Ubuntu through:
 
   1.  First install Stm32CubeProgrammer  https://askubuntu.com/questions/1195872/how-to-install-stm32cubeprogrammer-in-linux
 
+##  Commands for stm32
+STM32_Programmer_CLI -c port=swd mode=UR -fwupgrade stm32wb5x_FUS_fw_for_fus_0_5_3.bin 0x080EC000 firstinstall=0
+
+STM32_Programmer_CLI -c port=swd mode=UR -fwupgrade stm32wb5x_FUS_fw_for_fus_0_5_3.bin 0x080EC000 firstinstall=0
+
+1.   First Upgrade FUS Firmware (step by step) @ 0x080EC000
+
+2.   then Wireless stack stm32wb5x_BLE_Stack_full_extended_fw.bin @ 0x080C7000  (check for version 1.13)
+
 ## To learning BLE with nrf52840 dongle
   1.  click  https://www.novelbits.io/nrf52840-usb-dongle-tutorial-3/
 
@@ -42,7 +51,7 @@ It can be intalled and launched  Ubuntu through:
      2. Then we include the files needed.
 
      3. The source code used to define a macro that can be used to instantiate the our custom service.(a brief Macro for defining a ble_simple_service_t instance.)
-     
+
      4. Next, we define the events that we want to report back to the application. These events are ones that we need to act upon at the application level. For example, to turn on/off an LED or record the occurrence of an event (such as in the case of notifications being enabled/disabled). It is good practice to leave these kinds of decisions and actions to happen at the application level. We want to have the service be as dumb as possible so that it can be reused by other applications without having to change the service’s implementation.
 
      5.  Then define a custom data structure that will hold an event tied to a specific connection (via the unique connection handle variable conn_handle ).
