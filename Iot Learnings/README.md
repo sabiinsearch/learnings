@@ -34,10 +34,10 @@ It can be intalled and launched  Ubuntu through:
 2.   then Wireless stack stm32wb5x_BLE_Stack_full_extended_fw.bin @ 0x080C7000  (check for version 1.13)
 
 ##  Nrf52840
-  1.  Download nrfconnect-launcher for Desktop
+  1.  Download nrfconnect-launcher for Desktop (nrfconnect-3.11.0-x86_64.AppImage)
      https://github.com/NordicSemiconductor/pc-nrfconnect-launcher/releases
 
-  2.  Right click and set executable properties under permissions
+  2.  Right click the downloaded file and set executable properties under permissions
 
 ## To learning BLE with nrf52840 dongle
   1.  click  https://www.novelbits.io/nrf52840-usb-dongle-tutorial-3/
