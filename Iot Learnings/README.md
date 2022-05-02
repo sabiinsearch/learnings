@@ -39,7 +39,7 @@ It can be intalled and launched  Ubuntu through:
 
   2.  Right click the downloaded file and check mark executable properties under permissions
 
-    **** Note ****
+    ****Note****
     Ubuntu 22.04 will no longer ship with the libfuse2 package by default. The AppImage distribution (and more generally, all existing AppImage's) are built expecting libfuse2 support. This means that AppImage's will not run on Ubuntu 22.04 by default.
 
     The user would have to manually run:
