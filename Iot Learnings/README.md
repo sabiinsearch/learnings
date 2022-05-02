@@ -39,6 +39,16 @@ It can be intalled and launched  Ubuntu through:
 
   2.  Right click the downloaded file and check mark executable properties under permissions
 
+_*** Note ***_
+    Ubuntu 22.04 will no longer ship with the libfuse2 package by default. The AppImage distribution (and more generally, all existing AppImage's) are built expecting libfuse2 support. This means that AppImage's will not run on Ubuntu 22.04 by default.
+
+    The user would have to manually run:
+
+    sudo apt install libfuse2*
+
+    prior to executing any AppImage.
+
+
 ## To learning BLE with nrf52840 dongle
   1.  click  https://www.novelbits.io/nrf52840-usb-dongle-tutorial-3/
 
