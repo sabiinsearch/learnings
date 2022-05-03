@@ -48,3 +48,8 @@ follow the link  https://www.tecmint.com/reset-forgotten-root-password-in-ubuntu
    
     sudo rmmod btusb
     sudo modprobe btusb
+    
+## West Command not found - after install
+   try 
+      echo 'export PATH=$PATH:~/.local/bin' >> ${HOME}/.bashrc
+      source ${HOME}/.bashrc
