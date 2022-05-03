@@ -57,6 +57,12 @@ It can be intalled and launched  Ubuntu through:
 
   3.  To generate UUIDs refer  https://www.guidgenerator.com/online-guid-generator.aspx
 
+## West Command not found - after install
+   try 
+      echo 'export PATH=$PATH:~/.local/bin' >> ${HOME}/.bashrc
+      source ${HOME}/.bashrc
+
+
 ##  For Custom GATT Service and Characterstics
 
   -  ## Create own service header as
