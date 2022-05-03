@@ -50,9 +50,12 @@ It can be intalled and launched  Ubuntu through:
 
 
 ## To learning BLE with nrf52840 dongle
-  1.  click  https://www.novelbits.io/nrf52840-usb-dongle-tutorial-3/
 
-  2.  To generate UUIDs refer  https://www.guidgenerator.com/online-guid-generator.aspx
+  1.  click https://www.youtube.com/watch?v=2cv_jjqk5hg 
+  
+  2.  click  https://www.novelbits.io/nrf52840-usb-dongle-tutorial-3/
+
+  3.  To generate UUIDs refer  https://www.guidgenerator.com/online-guid-generator.aspx
 
 ##  For Custom GATT Service and Characterstics
 
