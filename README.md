@@ -42,3 +42,9 @@ follow the link  https://www.tecmint.com/reset-forgotten-root-password-in-ubuntu
          key_mgmt=WPA-PSK
          priority=1
 }
+
+## Bluetooth Not Working - Ubuntu 20.04
+   try these commands
+   
+    sudo rmmod btusb
+    sudo modprobe btusb
