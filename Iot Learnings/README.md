@@ -1,7 +1,7 @@
 
-## Learnings - Internet Of Things (IoT)
+# Learnings - Internet Of Things (IoT)
 
-### Tools used for Internet Of Things
+## Tools used for Internet Of Things
 
 ### Blender (3D Desining open source software application)
 
@@ -15,12 +15,12 @@ It can be intalled and launched  Ubuntu through:
 **_Refer_** - https://vitux.com/how-to-install-blender-3d-on-ubuntu/
 
 
-## Importing EasyEda designs
+### Importing EasyEda designs
 
   1.   Export final designed file as EasyEda json file and upload it to https://wokwi.com/easyeda2kicad
   2.   Save it and open it in KiCad pcb editor
 
-## Uploading code to Blue pill (Stm32f103C8T6)
+### Uploading code to Blue pill (Stm32f103C8T6)
 
   1.  First install Stm32CubeProgrammer  https://askubuntu.com/questions/1195872/how-to-install-stm32cubeprogrammer-in-linux
 
@@ -34,6 +34,7 @@ It can be intalled and launched  Ubuntu through:
 2.   then Wireless stack stm32wb5x_BLE_Stack_full_extended_fw.bin @ 0x080C7000  (check for version 1.13)
 
 ##  Nrf52840
+
   1.  Download nrfconnect-launcher for Desktop (****nrfconnect-3.11.0-x86_64.AppImage****)
      https://github.com/NordicSemiconductor/pc-nrfconnect-launcher/releases
 
@@ -50,9 +51,27 @@ It can be intalled and launched  Ubuntu through:
 
 
 ## To learning BLE with nrf52840 dongle
-  1.  click  https://www.novelbits.io/nrf52840-usb-dongle-tutorial-3/
 
-  2.  To generate UUIDs refer  https://www.guidgenerator.com/online-guid-generator.aspx
+  1.  click https://www.youtube.com/watch?v=2cv_jjqk5hg 
+  
+  2.  click  https://www.novelbits.io/nrf52840-usb-dongle-tutorial-3/
+
+  3.  To generate UUIDs refer  https://www.guidgenerator.com/online-guid-generator.aspx
+
+## West Command not found - after install
+   try 
+      echo 'export PATH=$PATH:~/.local/bin' >> ${HOME}/.bashrc
+      source ${HOME}/.bashrc
+
+## nrfjprog - v giving error
+
+    1.  Download nrf-command-line-tools-10.15.4_linux-amd64.tar.gz (for Linux)
+    
+    2.  Extract it and from its contents Install JLink_Linux_V758b_x86_64.deb with Software Install
+    
+##   Use nRF SDK with VS code
+    Refer https://makerdiary.com/blogs/news/how-to-use-nrf5-sdk-with-arm-gcc 
+    for downloading GCC toolchain and editing makefile.posix 
 
 ##  For Custom GATT Service and Characterstics
 
