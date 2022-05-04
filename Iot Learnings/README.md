@@ -68,6 +68,10 @@ It can be intalled and launched  Ubuntu through:
     1.  Download nrf-command-line-tools-10.15.4_linux-amd64.tar.gz (for Linux)
     
     2.  Extract it and from its contents Install JLink_Linux_V758b_x86_64.deb with Software Install
+    
+##   Use nRF SDK with VS code
+    Refer https://makerdiary.com/blogs/news/how-to-use-nrf5-sdk-with-arm-gcc 
+    for downloading GCC toolchain and editing makefile.posix 
 
 ##  For Custom GATT Service and Characterstics
 
