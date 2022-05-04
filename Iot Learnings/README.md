@@ -1,7 +1,7 @@
 
-## Learnings - Internet Of Things (IoT)
+# Learnings - Internet Of Things (IoT)
 
-### Tools used for Internet Of Things
+## Tools used for Internet Of Things
 
 ### Blender (3D Desining open source software application)
 
@@ -15,12 +15,12 @@ It can be intalled and launched  Ubuntu through:
 **_Refer_** - https://vitux.com/how-to-install-blender-3d-on-ubuntu/
 
 
-## Importing EasyEda designs
+### Importing EasyEda designs
 
   1.   Export final designed file as EasyEda json file and upload it to https://wokwi.com/easyeda2kicad
   2.   Save it and open it in KiCad pcb editor
 
-## Uploading code to Blue pill (Stm32f103C8T6)
+### Uploading code to Blue pill (Stm32f103C8T6)
 
   1.  First install Stm32CubeProgrammer  https://askubuntu.com/questions/1195872/how-to-install-stm32cubeprogrammer-in-linux
 
@@ -34,6 +34,7 @@ It can be intalled and launched  Ubuntu through:
 2.   then Wireless stack stm32wb5x_BLE_Stack_full_extended_fw.bin @ 0x080C7000  (check for version 1.13)
 
 ##  Nrf52840
+
   1.  Download nrfconnect-launcher for Desktop (****nrfconnect-3.11.0-x86_64.AppImage****)
      https://github.com/NordicSemiconductor/pc-nrfconnect-launcher/releases
 
