@@ -62,6 +62,9 @@ It can be intalled and launched  Ubuntu through:
       echo 'export PATH=$PATH:~/.local/bin' >> ${HOME}/.bashrc
       source ${HOME}/.bashrc
 
+## if '''' nrfjprog - v '''' giving error
+    1.  Download nrf-command-line-tools-10.15.4_linux-amd64.tar.gz (****_for Linux_****)
+    2.  Extract it and from its contents ****Install**** '''' JLink_Linux_V758b_x86_64.deb '''' ****with Software Install****
 
 ##  For Custom GATT Service and Characterstics
 
