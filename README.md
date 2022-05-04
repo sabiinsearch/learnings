@@ -48,4 +48,10 @@ follow the link  https://www.tecmint.com/reset-forgotten-root-password-in-ubuntu
    
     sudo rmmod btusb
     sudo modprobe btusb
+
+## Include libraries in PlatformIO project in VS Code
+
+   1.    Edit _includePath_ in c_cpp_properties.json file (Press Ctr+P and write c_cpp_properties.json) 
+
+   2.    Use ###### ** (wild card) ###### to include sub folders
     
