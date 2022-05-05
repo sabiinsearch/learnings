@@ -13,11 +13,13 @@ Include learning with videos, literature, and useful links in various fields
        gsettings set org.gnome.desktop.interface show-battery-percentage true
 
 ##  USB not accessed for uploading code to ESP32
-   Try                                                     
-      1. Open the terminal and write: (Temporary Solution)
+   Try, Open the terminal and wtite :
+      
+   1. ****Temporary Solution****
             $ sudo chmod a+rw /dev/ttyUSB0     
 
-      2.    $ sudo usermod -a -G dialout $USER
+   2. ****Permanent Solution****
+            $ sudo usermod -a -G dialout $USER
             $ reboot
 
 
