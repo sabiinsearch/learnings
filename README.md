@@ -10,10 +10,10 @@ Include learning with videos, literature, and useful links in various fields
 
    Press Ctrl+Alt+T to open terminal, copy the command (Ctrl+C) and paste (Ctrl+Shift+V) into terminal and hit run:
 
-      '''' gsettings set org.gnome.desktop.interface           show-battery-percentage true ''''
+       gsettings set org.gnome.desktop.interface show-battery-percentage true
 
 ##  USB not accessed for uploading code to ESP32
-   Try 
+   Try                                                            
       Open the terminal and write:
          sudo chmod a+rw /dev/ttyUSB0
 
