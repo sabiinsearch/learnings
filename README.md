@@ -3,6 +3,18 @@
 
 Include learning with videos, literature, and useful links in various fields
 
+## Display Battery % on 20.04 ubuntu
+   #### Single command to show battery percentage:
+
+   For those familiar with Linux commands, this can be done via a single command.
+
+   Press Ctrl+Alt+T to open terminal, copy the command (Ctrl+C) and paste (Ctrl+Shift+V) into terminal and hit run:
+
+      '''' gsettings set org.gnome.desktop.interface           show-battery-percentage true ''''
+
+
+
+
 ## Installing Node.js and npm in Ubuntu
 
 #### Step 1.  Installing Node.js
