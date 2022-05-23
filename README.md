@@ -13,19 +13,15 @@ Include learning with videos, literature, and useful links in various fields
        gsettings set org.gnome.desktop.interface show-battery-percentage true
 
 ##  USB not accessed for uploading code to ESP32
-   Open the terminal and wtite :
+   Open the terminal and wtite
       
-   1. ****Temporary Solution****
+   1. **Temporary Solution**
 
-       ###### $ sudo chmod a+rw /dev/ttyUSB0     
+       ######      $ sudo chmod a+rw /dev/ttyUSB0     
 
-   2. ****Permanent Solution****
-       ###### $ sudo usermod -a -G dialout $USER
-       ###### $ reboot
-
-
-
-
+   2. **Permanent Solution**
+       ######     $ sudo usermod -a -G dialout $USER
+       ######     $ reboot
 
 ## Installing Node.js and npm in Ubuntu
 
