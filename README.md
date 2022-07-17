@@ -74,4 +74,7 @@ follow the link  https://www.tecmint.com/reset-forgotten-root-password-in-ubuntu
    1. Edit _includePath_ in c_cpp_properties.json file (Press _Ctr+P_ and write c_cpp_properties.json) 
 
    2. Use ** (wild card) to include sub folders
+
+#  Learn **_Make_**
+   follow the link https://makefiletutorial.com/ to learn.
     
