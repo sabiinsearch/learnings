@@ -1,6 +1,7 @@
 class Solution {
 
         //  Lowercase Letter − a - z having ASCII values from 97 - 122 where, 97 and 122 are inclusive      
+        
         public boolean checkPattern(String p) {
            for(int i=0;i<p.length();i++) {
                if(!(97<p[i]<122)) {
