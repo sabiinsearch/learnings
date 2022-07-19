@@ -80,4 +80,7 @@ follow the link  https://www.tecmint.com/reset-forgotten-root-password-in-ubuntu
 
 ##  ESP Rainmaker - 
        https://microcontrollerslab.com/esp-rainmaker-tutorial-esp32-arduino-ide/
+
+##  ESP-IDF  -
+   to learn about **ESP-IDF** click https://my-esp-idf.readthedocs.io/en/latest/get-started/index.html
     
