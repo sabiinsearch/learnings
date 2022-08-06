@@ -40,7 +40,7 @@ class Solution {
 }
 
 public class pattern {
-    public stati void main(String s[]) {
+    public static void main(String s[]) {
             
     }
 }
