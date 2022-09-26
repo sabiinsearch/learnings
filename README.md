@@ -83,4 +83,8 @@ follow the link  https://www.tecmint.com/reset-forgotten-root-password-in-ubuntu
 
 ##  ESP-IDF  -
    to learn about **ESP-IDF** click https://my-esp-idf.readthedocs.io/en/latest/get-started/index.html
+
+## OTBR
+   Running otbr service command is 
+      ''''pi@raspberrypi:~$ journalctl -u otbr-agent.service 
     
