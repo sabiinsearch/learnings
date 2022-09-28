@@ -90,8 +90,8 @@ follow the link  https://www.tecmint.com/reset-forgotten-root-password-in-ubuntu
    go to https://developer.nordicsemi.com/nRF_Connect_SDK/doc/latest/nrf/ug_thread_tools.html
 
    ## making RCP with nrf52840 dongle
-     https://developer.nordicsemi.com/nRF_Connect_SDK/doc/2.0.0/matter/openthread_rcp_nrf_dongle.html
+   https://developer.nordicsemi.com/nRF_Connect_SDK/doc/2.0.0/matter/openthread_rcp_nrf_dongle.html
 
    #### other references - 
-      click https://openthread.io/guides/border-router/raspberry-pi  
+   click https://openthread.io/guides/border-router/raspberry-pi  
    
