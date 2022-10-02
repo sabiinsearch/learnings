@@ -87,8 +87,11 @@ follow the link  https://www.tecmint.com/reset-forgotten-root-password-in-ubuntu
 ## Open Thread
 
    ## Running OTBR using Docker on Raspberry pi
+
+   ### For complete set up 
+      go to https://developer.nordicsemi.com/nRF_Connect_SDK/doc/latest/nrf/ug_thread_tools.html
    
-   Start the OpenThread Border Router container using the following commands:
+   ### To Start the OpenThread Border Router container use the following commands:
 
             $ sudo modprobe ip6table_filter
 
@@ -99,9 +102,6 @@ follow the link  https://www.tecmint.com/reset-forgotten-root-password-in-ubuntu
    #### Then, Form the Thread network
    
    open the http://address of pi:8080/ address in a web browser and choose ***Form*** from the menu         
-
-   ### For complete set up 
-      https://developer.nordicsemi.com/nRF_Connect_SDK/doc/latest/nrf/ug_thread_tools.html
 
    ## making RCP with nrf52840 dongle
    click https://developer.nordicsemi.com/nRF_Connect_SDK/doc/2.0.0/matter/openthread_rcp_nrf_dongle.html
