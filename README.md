@@ -99,7 +99,7 @@ follow the link  https://www.tecmint.com/reset-forgotten-root-password-in-ubuntu
    
    ### Then, Form the Thread network
    
-   open the http://address of pi:8080/ address in a web browser and choose **Form** from the menu         
+   open the http://address of pi:8080/ address in a web browser and choose ***Form*** from the menu         
    ## making RCP with nrf52840 dongle
    click https://developer.nordicsemi.com/nRF_Connect_SDK/doc/2.0.0/matter/openthread_rcp_nrf_dongle.html
 
