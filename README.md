@@ -99,9 +99,9 @@ follow the link  https://www.tecmint.com/reset-forgotten-root-password-in-ubuntu
             --sysctl "net.ipv6.conf.all.disable_ipv6=0 net.ipv4.conf.all.forwarding=1 net.ipv6.conf.all.forwarding=1" \
             --volume /dev/ttyACM0:/dev/radio nrfconnect/otbr:1813352 --radio-url spinel+hdlc+uart:///dev/radio?uart-baudrate=1000000
 
-   #### Then, Form the Thread network
+   #### and form the Thread network
    
-   open the http://address of pi:8080/ address in a web browser and choose ***Form*** from the menu         
+   open the http:// address of pi:8080 address in a web browser and choose ***Form*** from the menu         
 
    ## making RCP with nrf52840 dongle
    click https://developer.nordicsemi.com/nRF_Connect_SDK/doc/2.0.0/matter/openthread_rcp_nrf_dongle.html
