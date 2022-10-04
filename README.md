@@ -104,8 +104,22 @@ follow the link  https://www.tecmint.com/reset-forgotten-root-password-in-ubuntu
    open the http:// address of pi:8080 address in a web browser and choose ***Form*** from the menu         
 
    ## making RCP with nrf52840 dongle
-   click https://developer.nordicsemi.com/nRF_Connect_SDK/doc/2.0.0/matter/openthread_rcp_nrf_dongle.html
+   click https://developer.nordicsemi.com/nRF_Connect_SDK/doc/2.0.0/matter/openthread_rcp_nrf_dongle.html 
 
    #### other references - 
    click https://openthread.io/guides/border-router/raspberry-pi  
+
+## Chip-tool
+   1.   Go to www.github.com/nrfconnect
    
+   2.   find and click **sdk-connectedhomeip** repository 
+   
+   3.   Click ***Release*** on the right side of the page and from the next page download 
+        **chip-tool-python_linux_release.zip** 
+   4.   Unzip by command
+        #### $ unzip <\path to the dowonloaded file>/chip-tool-python_linux_release.zip
+   5.   Install using 
+        #### $ python3 -m pip install chip-0.0-cp37-abi3-linux_x86_64.whl
+   6.   Run using  
+        #### $ chip-device-ctl      
+ 
