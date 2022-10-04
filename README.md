@@ -117,7 +117,7 @@ follow the link  https://www.tecmint.com/reset-forgotten-root-password-in-ubuntu
    3.   Click ***Release*** on the right side of the page and from the next page download 
         **chip-tool-python_linux_release.zip** 
    4.   Unzip by command
-        #### $ unzip <\path to the dowonloaded file>/chip-tool-python_linux_release.zip
+            $ unzip <\path to the dowonloaded file>/chip-tool-python_linux_release.zip
    5.   Install using 
         #### $ python3 -m pip install chip-0.0-cp37-abi3-linux_x86_64.whl
    6.   Run using  
