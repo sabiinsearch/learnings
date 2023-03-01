@@ -94,18 +94,18 @@ It can be intalled and launched  Ubuntu through:
 ## Installing MQTT in ubuntu
   1.  Submit the following commands in the terminal of ubuntu
 
-        - sudo apt-add-repository ppa:mosquitto-dev/mosquitto-ppa
+          - sudo apt-add-repository ppa:mosquitto-dev/mosquitto-ppa
 
-        - sudo apt-get update
+          - sudo apt-get update
 
-        - sudo apt-get install mosquitto
+          - sudo apt-get install mosquitto
 
-        - sudo apt-get install mosquitto-clients
+          - sudo apt-get install mosquitto-clients
 
-        - sudo apt clean 
+          - sudo apt clean 
 
   2.  Command to Subscribe
        
-        mosquitto_sub -_h_ broker.hivemq.com -_p_ 1883 -_t_ iot-2/evt/status/fmt/json
-        
-             (where -h _for host_, -p _for port_, and -t _for Topic_)
+          mosquitto_sub -_h_ broker.hivemq.com -_p_ 1883 -_t_ iot-2/evt/status/fmt/json
+
+          (where -h _for host_, -p _for port_, and -t _for Topic_)
