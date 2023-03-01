@@ -90,3 +90,15 @@ It can be intalled and launched  Ubuntu through:
      4. Next, we define the events that we want to report back to the application. These events are ones that we need to act upon at the application level. For example, to turn on/off an LED or record the occurrence of an event (such as in the case of notifications being enabled/disabled). It is good practice to leave these kinds of decisions and actions to happen at the application level. We want to have the service be as dumb as possible so that it can be reused by other applications without having to change the service’s implementation.
 
      5.  Then define a custom data structure that will hold an event tied to a specific connection (via the unique connection handle variable conn_handle ).
+
+## Installing MQTT in ubuntu
+  1.  Submit the following commands in the terminal of ubuntu
+            - sudo apt-add-repository ppa:mosquitto-dev/mosquitto-ppa
+            - sudo apt-get update
+            - sudo apt-get install mosquitto
+            - sudo apt-get install mosquitto-clients
+            - sudo apt clean 
+  2.  Command to Subscribe
+       
+        mosquitto_sub -_h_ broker.hivemq.com -_p_ 1883 -_t_ iot-2/evt/status/fmt/json
+             (where -h _for host_, -p _for port_, and -t _for Topic_)
