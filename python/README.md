@@ -114,4 +114,12 @@ If you have a collection of values in a list, tuple etc. Python allows you to ex
     fruits = ["apple", "banana", "cherry"]
 
     x, y, z = fruits
+
+##### In the print() function, you output multiple variables, separated by a (,) or '+' operator
+
+In the print() function, when you try to combine a string and a number with the + operator, Python will give you an error:
+
+#### The best way to output multiple variables in the print() function is to separate them with commas, which even support different data types:
+
+
     
