@@ -50,3 +50,5 @@ The way to run a python file is like this on the command line:
 Python uses indentation to indicate a block of code. Python will give you an error if you skip the indentation:
 
 You have to use the same number of spaces in the same block of code, otherwise Python will give you an error:
+
+Comments starts with a #, and Python will ignore them:
