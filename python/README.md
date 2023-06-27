@@ -101,7 +101,9 @@ Python allows you to assign values to multiple variables in one line
     example  
         x, y, z = "Orange", "Banana", "Cherry"
 
-And you can assign the same value to multiple variables in one line:
+## One Value to Multiple Variables
+
+You can also assign the same value to multiple variables in one line:
 
     example
         x = y = z = "Orange"
@@ -110,6 +112,6 @@ And you can assign the same value to multiple variables in one line:
 If you have a collection of values in a list, tuple etc. Python allows you to extract the values into variables. This is called unpacking.
 
     fruits = ["apple", "banana", "cherry"]
-    
+
     x, y, z = fruits
     
