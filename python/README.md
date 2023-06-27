@@ -49,47 +49,53 @@ The way to run a python file is like this on the command line:
 
 ## Indentation
 
-    Python uses indentation to indicate a block of code. Python will give you an error if you skip the indentation:
+Python uses indentation to indicate a block of code. Python will give you an error if you skip the indentation:
 
-    You have to use the same number of spaces in the same block of code, otherwise Python will give you an error:
+You have to use the same number of spaces in the same block of code, otherwise Python will give you an error:
 
-    Comments starts with a #, and Python will ignore them:
+Comments starts with a #, and Python will ignore them:
 
 ## Creating Variables
 
-    Python has no command for declaring a variable. A variable is created the moment you first assign a value to it.
+Python has no command for declaring a variable. A variable is created the moment you first assign a value to it.
 
 ## Casting Variable
 
-    If you want to specify the data type of a variable, this can be done with casting.
+If you want to specify the data type of a variable, this can be done with casting.
 
-        example  
-                x = str(3)    # x will be '3'
-                y = int(3)    # y will be 3
-                z = float(3)  # z will be 3.0
+    example  
+        x = str(3)    # x will be '3'
+        y = int(3)    # y will be 3
+        z = float(3)  # z will be 3.0
     
-    You can get the data type of a variable with the type() function.
+You can get the data type of a variable with the type() function.
 
-    Variable names are case-senstive.
+Variable names are case-senstive.
 
 ## Multi Words Variable Names
 
-    Variable names with more than one word can be difficult to read.
-
-    There are several techniques you can use to make them more readable:
+Variable names with more than one word can be difficult to read. There are several techniques you can use to make them more readable:
 
 ### Camel Case
 
-    Each word, except the first, starts with a capital letter:
+Each word, except the first, starts with a capital letter:
 
-        myVariableName = "John"
+    myVariableName = "John"
+
 ### Pascal Case
 
-    Each word starts with a capital letter:
+Each word starts with a capital letter:
 
-        MyVariableName = "John"
+    MyVariableName = "John"
+
 ### Snake Case
 
-    Each word is separated by an underscore character:
+Each word is separated by an underscore character:
 
-        my_variable_name = "John"
+    my_variable_name = "John"
+
+## Many Values to Multiple Variables
+
+    example  
+        x, y, z = "Orange", "Banana", "Cherry"
+    
