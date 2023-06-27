@@ -67,3 +67,29 @@ The way to run a python file is like this on the command line:
                 x = str(3)    # x will be '3'
                 y = int(3)    # y will be 3
                 z = float(3)  # z will be 3.0
+    
+    You can get the data type of a variable with the type() function.
+
+    Variable names are case-senstive.
+
+## Multi Words Variable Names
+
+    Variable names with more than one word can be difficult to read.
+
+    There are several techniques you can use to make them more readable:
+
+### Camel Case
+
+    Each word, except the first, starts with a capital letter:
+
+        myVariableName = "John"
+### Pascal Case
+
+    Each word starts with a capital letter:
+
+        MyVariableName = "John"
+### Snake Case
+
+    Each word is separated by an underscore character:
+
+        my_variable_name = "John"
