@@ -47,12 +47,23 @@ The way to run a python file is like this on the command line:
 
 # Key Features
 
+## Indentation
+
     Python uses indentation to indicate a block of code. Python will give you an error if you skip the indentation:
 
     You have to use the same number of spaces in the same block of code, otherwise Python will give you an error:
 
     Comments starts with a #, and Python will ignore them:
 
-    # Creating Variables
+## Creating Variables
 
     Python has no command for declaring a variable. A variable is created the moment you first assign a value to it.
+
+## Casting Variable
+
+    If you want to specify the data type of a variable, this can be done with casting.
+
+        example  
+                x = str(3)    # x will be '3'
+                y = int(3)    # y will be 3
+                z = float(3)  # z will be 3.0
