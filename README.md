@@ -121,5 +121,8 @@ follow the link  https://www.tecmint.com/reset-forgotten-root-password-in-ubuntu
    5.   Install using 
         #### $ python3 -m pip install chip-0.0-cp37-abi3-linux_x86_64.whl
    6.   Run using  
-        #### $ chip-device-ctl      
+        #### $ chip-device-ctl    
+
+   ## Serial Bootloader (SBL) on cc2652 or cc1352
+      - click for more reference https://ptvo.info/zigbee-configurable-firmware-features/serial-bootloader-sbl-on-cc2652/  
  
