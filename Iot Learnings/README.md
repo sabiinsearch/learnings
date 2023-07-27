@@ -109,3 +109,7 @@ It can be intalled and launched  Ubuntu through:
           mosquitto_sub -_h_ broker.hivemq.com -_p_ 1883 -_t_ iot-2/evt/status/fmt/json
 
           (where -h _for host_, -p _for port_, and -t _for Topic_)
+          
+## Installing and usingh Segger J-Link
+    for J-link refer https://wiki.segger.com/J-Link_cannot_connect_to_the_CPU
+
