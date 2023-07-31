@@ -1,6 +1,6 @@
 
 ## Learnings
-
+Added reposiory to git
 Include learning with videos, literature, and useful links in various fields
 
 ## Display Battery % on 20.04 ubuntu
