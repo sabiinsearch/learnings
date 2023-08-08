@@ -5,7 +5,7 @@
 
 ##  Git Problems (Solution)  
 
-   -   Git: Could not resolve host github.com error while cloning remote repository in git  (refer https://stackoverflow.com/questions/20370294/git-could-not-resolve-host-github-com-error-while-cloning-remote-repository-in) 
+   -   Git: Could not resolve host github.com error while cloning remote repository in git  (refer https://stackoverflow.com/questions/20370294/git-could-not-resolve-host-github-com-error-while-cloning-remote-repository-in)  
 
 Include learning with videos, literature, and useful links in various fields
 
