@@ -113,3 +113,8 @@ It can be intalled and launched  Ubuntu through:
 ## Installing and usingh Segger J-Link
     for J-link refer https://wiki.segger.com/J-Link_cannot_connect_to_the_CPU
 
+## Installing USB-Serial Driver (CH340) in some boards
+  
+  Watch the video on https://www.youtube.com/watch?v=PZrsAmvMtwA
+  and Follow the link https://diode-laser-wiki.com/documentation/setting-up-the-software/
+
