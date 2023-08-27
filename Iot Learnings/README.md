@@ -113,6 +113,7 @@ It can be intalled and launched  Ubuntu through:
   3.  Command to Publish 
 
           mosquitto_pub -h localhost -t kitchen/coffeemaker -m "on" -q 1
+          
           (where -h _for_ -t _for topoic_ -m _for message_ and -q _for Quality of service_)
           
 ## Installing and usingh Segger J-Link
