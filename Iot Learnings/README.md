@@ -130,6 +130,6 @@ It can be intalled and launched  Ubuntu through:
     Click https://microcontrollerslab.com/save-data-esp32-flash-permanently-preferences-library/  
 
 ## Learning ArduinoJson6 
-    https://arduinojson.org/v6/doc/upgrade/
+    Click on https://arduinojson.org/v6/doc/upgrade/
 
 
