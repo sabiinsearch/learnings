@@ -124,3 +124,9 @@ It can be intalled and launched  Ubuntu through:
   Watch the video on https://www.youtube.com/watch?v=PZrsAmvMtwA
   and Follow the link https://diode-laser-wiki.com/documentation/setting-up-the-software/
 
+## Save Data to Flash Permanently using Preferences Library
+
+  *_Using Preference.h library_*
+    Click https://microcontrollerslab.com/save-data-esp32-flash-permanently-preferences-library/  
+    
+
