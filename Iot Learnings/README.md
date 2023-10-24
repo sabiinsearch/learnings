@@ -145,6 +145,6 @@ It can be intalled and launched  Ubuntu through:
 
     6.      Flash the file <Target-->Mannual Programming-->Program & Verify and again disconnect
 
-    7.      Then again connect the target and fash Project_zero .bin file after build the project. (Note update the target config for Segger J-Link)
+    7.      Then again connect the target and fash Project_zero .bin file after build the project. (Note update the target config for Segger J-Link) and again disconnect for changes to take place.
 
 
