@@ -132,4 +132,19 @@ It can be intalled and launched  Ubuntu through:
 ## Learning ArduinoJson6 
     Click on https://arduinojson.org/v6/doc/upgrade/
 
+##  Running 'Project Zero' on LP-CC2652R7
+    1.      Connect  Segger J-Link (V9) with JTAG pins of Launchpad board 
+
+    2.      Start JFlash (/urs/bin/JFlash)  Create new project --> Select Target Device as <cc2652R7>, Target Interface <JTAG>, Speed 4000KHz
+
+    3.      Connect the target MCU  <Main Menu-->Target--> Connect > 
+
+    4.      Then erase entire chip <Target-->Mannual Programming--> Erase Chip> and then disconnect
+
+    5.      Open data file (SimpleLink... examples/nortos/LP_CC2652R7/bim/hexfiles/bim_offchip/Debug/bim_offchip.hex)
+
+    6.      Flash the file <Target-->Mannual Programming-->Program & Verify and again disconnect
+
+    7.      Then again connect the target and fash Project_zero .bin file after build the project. (Note update the target config for Segger J-Link)
+
 
