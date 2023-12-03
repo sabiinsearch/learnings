@@ -132,3 +132,9 @@ follow the link  https://www.tecmint.com/reset-forgotten-root-password-in-ubuntu
    ## Serial Bootloader (SBL) on cc2652 or cc1352
       - click for more reference https://ptvo.info/zigbee-configurable-firmware-features/serial-bootloader-sbl-on-cc2652/  
  
+ ## Custom Board with cc2652R7 chip
+     1.   Refer schematic diagram for circuit and PCB and then 
+     2.   connect it using Segger J-Link (version 9)  -  Refer connection diagramm (image)
+     3.   Download and use Jflash
+     4.    
+     5.   
