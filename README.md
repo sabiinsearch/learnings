@@ -148,5 +148,7 @@ follow the link  https://www.tecmint.com/reset-forgotten-root-password-in-ubuntu
    6.    Download and install '**Starter**' by '**TI**' in mobile
    7.    Custom board will be broadcasting '**Project Zero**' .... click on that then toggle LEDs and use button for input
 
+   *Also, refer https://dev.ti.com/tirex/explore/node?node=A__AciOYyNq9gli.nsvJzBtQg__com.ti.SIMPLELINK_ACADEMY_CC13XX_CC26XX_SDK__AfkT0vQ__LATEST*
+
 
                
