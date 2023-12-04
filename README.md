@@ -138,4 +138,13 @@ follow the link  https://www.tecmint.com/reset-forgotten-root-password-in-ubuntu
    3.   Download and use Jflash to connect
    4.   Aslo Download and use uniFlash command as described in https://dev.ti.com/tirex/explore/node?node=A__AciOYyNq9gli.nsvJzBtQg__com.ti.SIMPLELINK_ACADEMY_CC13XX_CC26XX_SDK__AfkT0vQ__LATEST
 
-               ./dslite.sh --config=CC2652R7.ccxml -f -v /home/sarbjeetsingh/workspace_v12/cust_project_zero/Debug/cust_project_zero.hex
+   5.    connect custom board to JFlash (select CC2652R7 -> JTag -> connect) and then erase chip
+
+   5.   Go to terminal
+               $ cd <path to uniFlash>
+               $ ./dslite.sh --config=CC2652R7.ccxml -f -v /home/sarbjeetsingh/ti/simplelink_cc13xx_cc26xx_sdk_7_10_01_24/examples/rtos/LP_CC2652R7/ble5stack/hexfiles/project_zero_unsecure_app.hex
+   6.    Download and install 'Starter' by ti in mobile
+   7.    Custom board will be broadcasting 'Project Zero' .... click on that then toggle LEDs and use button for input
+
+
+               
