@@ -150,5 +150,25 @@ follow the link  https://www.tecmint.com/reset-forgotten-root-password-in-ubuntu
 
    *Also, refer https://dev.ti.com/tirex/explore/node?node=A__AciOYyNq9gli.nsvJzBtQg__com.ti.SIMPLELINK_ACADEMY_CC13XX_CC26XX_SDK__AfkT0vQ__LATEST*
 
+## Customising matter Thread examples of own
+
+   1.   **copy** (so that u dont over write original) the example (**inside example folder in matter**) to new location (as per ur project)
+   2.   There are 2 simlinks inside that folder. Delete them and **create** own simlink as 
+
+                   $  ln -s ~/matter <path to ur copied location>/third_party/connectedhomeip
+                   $  ln -s ~/matter/examples/build_overrides <path to ur copied location>/build_overrides
+   3.   **Build the example**
+          -  go to matter folder in terminal
+              
+              $ cd <path to matter folder>                
+              $ source scripts/activate.sh
+   
+   4.    Flash the build to ur **Custom Board** (cofirm it is connected to pc)
+       
+         $ cd <path to uniFlash>
+         $ ./dslite.sh --config=CC2652R7.ccxml -f -v <path to compiled output of ...-bim.hex> 
+
+                     (confirm the ***CC2652R7.ccxml*** file fullfills connection details and is placed in uniFlash folder)
+
 
                
