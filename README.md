@@ -165,10 +165,10 @@ follow the link  https://www.tecmint.com/reset-forgotten-root-password-in-ubuntu
    
    4.    Flash the build to ur **Custom Board** (cofirm it is connected to pc)
        
-         $ cd <path to uniFlash>
-         $ ./dslite.sh --config=CC2652R7.ccxml -f -v <path to compiled output of ...-bim.hex> 
+             $ cd <path to uniFlash>
+             $ ./dslite.sh --config=CC2652R7.ccxml -f -v <path to compiled output of ...-bim.hex> 
 
-                     (confirm the ***CC2652R7.ccxml*** file fullfills connection details and is placed in uniFlash folder)
+         (confirm the ***CC2652R7.ccxml*** file fullfills connection details and is placed in uniFlash folder)
 
 
                
