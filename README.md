@@ -134,13 +134,23 @@ follow the link  https://www.tecmint.com/reset-forgotten-root-password-in-ubuntu
  
  ## Custom Board with cc2652R7 chip
    1.   Refer schematic diagram for circuit and PCB (https://github.com/sabiinsearch/References/blob/main/cc2652R7_DesignFiles/Schematic/mcu075a_LP-CC2652R7_schematic.pdf) and then 
-   2.   connect it using Segger J-Link (***version 9***)https://www.amazon.in/gp/product/B07XTMFDZR/ref=ppx_yo_dt_b_asin_title_o04_s00?ie=UTF8&psc=1 -  Refer connection diagramm (images - https://github.com/sabiinsearch/References/blob/e45ca849e40d19501bc33f7bba5e7f593e9fb725/J-link_connection_1.jpeg, https://github.com/sabiinsearch/References/blob/e45ca849e40d19501bc33f7bba5e7f593e9fb725/J-link_connection_2.jpeg)
+
+   2.   Connect it using Segger J-Link (***version 9***)  
+        https://www.amazon.in/gp/product/B07XTMFDZR/ref=ppx_yo_dt_b_asin_title_o04_s00?ie=UTF8&psc=1 
+
+                 Refer connection diagramm (images)
+                 
+                           - https://github.com/sabiinsearch/References/blob/e45ca849e40d19501bc33f7bba5e7f593e9fb725/J-link_connection_1.jpeg
+
+                           - https://github.com/sabiinsearch/References/blob/e45ca849e40d19501bc33f7bba5e7f593e9fb725/J-link_connection_2.jpeg
+
    3.   Download and use **Jflash** to connect
+
    4.   Aslo Download and use uniFlash command as described in https://dev.ti.com/tirex/explore/node?node=A__AciOYyNq9gli.nsvJzBtQg__com.ti.SIMPLELINK_ACADEMY_CC13XX_CC26XX_SDK__AfkT0vQ__LATEST
 
    5.    connect ***Custom board*** to ***JFlash*** (select CC2652R7 -> JTag -> connect) and then ***erase chip***
 
-   5.   Go to terminal (Ctr+shift+T)
+   5.    Go to terminal (Ctr+shift+T)
 
                    $ cd <path to uniFlash>
                    $ ./dslite.sh --config=CC2652R7.ccxml -f -v /home/sarbjeetsingh/ti/simplelink_cc13xx_cc26xx_sdk_7_10_01_24/examples/rtos/LP_CC2652R7/ble5stack/hexfiles/project_zero_unsecure_app.hex
