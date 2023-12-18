@@ -139,7 +139,7 @@ follow the link  https://www.tecmint.com/reset-forgotten-root-password-in-ubuntu
         https://www.amazon.in/gp/product/B07XTMFDZR/ref=ppx_yo_dt_b_asin_title_o04_s00?ie=UTF8&psc=1 
 
                  Refer connection diagramm (images)
-                 
+
                            - https://github.com/sabiinsearch/References/blob/e45ca849e40d19501bc33f7bba5e7f593e9fb725/J-link_connection_1.jpeg
 
                            - https://github.com/sabiinsearch/References/blob/e45ca849e40d19501bc33f7bba5e7f593e9fb725/J-link_connection_2.jpeg
@@ -168,10 +168,10 @@ follow the link  https://www.tecmint.com/reset-forgotten-root-password-in-ubuntu
                    $  ln -s ~/matter <path to ur copied location>/third_party/connectedhomeip
                    $  ln -s ~/matter/examples/build_overrides <path to ur copied location>/build_overrides
    3.   **Build the example**
-          -  go to matter folder in terminal
+          -Go to matter folder in terminal
               
-              $ cd <path to matter folder>                
-              $ source scripts/activate.sh
+             $ cd <path to matter folder>                
+             $ source scripts/activate.sh
    
    4.    Flash the build to ur **Custom Board** (cofirm it is connected to pc)
        
