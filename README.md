@@ -134,7 +134,7 @@ follow the link  https://www.tecmint.com/reset-forgotten-root-password-in-ubuntu
  
  ## Custom Board with cc2652R7 chip
    1.   Refer schematic diagram for circuit and PCB (https://github.com/sabiinsearch/References/blob/main/cc2652R7_DesignFiles/Schematic/mcu075a_LP-CC2652R7_schematic.pdf) and then 
-   2.   connect it using Segger J-Link (***version 9***)  -  Refer connection diagramm (image)
+   2.   connect it using Segger J-Link (***version 9***) https://www.amazon.in/gp/product/B07XTMFDZR/ref=ppx_yo_dt_b_asin_title_o04_s00?ie=UTF8&psc=1 -  Refer connection diagramm (image)
    3.   Download and use **Jflash** to connect
    4.   Aslo Download and use uniFlash command as described in https://dev.ti.com/tirex/explore/node?node=A__AciOYyNq9gli.nsvJzBtQg__com.ti.SIMPLELINK_ACADEMY_CC13XX_CC26XX_SDK__AfkT0vQ__LATEST
 
