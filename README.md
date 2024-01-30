@@ -92,6 +92,9 @@ follow the link  https://www.tecmint.com/reset-forgotten-root-password-in-ubuntu
     
 ## Open Thread
 
+   Refer https://www.youtube.com/watch?v=xCyzNzYSG4U&t=966s for OTBR running on raspberry pi with nrf dongle as RCP 
+   from scratch..
+
    ## Running OTBR using Docker on Raspberry pi
 
    ### For complete set up 
