@@ -184,6 +184,9 @@ follow the link  https://www.tecmint.com/reset-forgotten-root-password-in-ubuntu
          (confirm the ***CC2652R7.ccxml*** file fullfills connection details and is placed in uniFlash folder)
 
 #### Creating Matter device 
-            Refer https://dev.ti.com/tirex/explore/node?node=A__AciOYyNq9gli.nsvJzBtQg__com.ti.SIMPLELINK_ACADEMY_CC13XX_CC26XX_SDK__AfkT0vQ__LATEST
-            
+   **Refer**
+      1.    https://dev.ti.com/tirex/explore/node?node=A__AciOYyNq9gli.nsvJzBtQg__com.ti.SIMPLELINK_ACADEMY_CC13XX_CC26XX_SDK__AfkT0vQ__LATEST
+      2.    https://jerome-silabs.github.io/SE_FAE_team/OpenThread/Applications/OpenThread_Border_Router/create_network.html#creating-network-using-the-web-user-interface
+
+
                
