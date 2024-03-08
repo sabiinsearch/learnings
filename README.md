@@ -171,10 +171,15 @@ follow the link  https://www.tecmint.com/reset-forgotten-root-password-in-ubuntu
                    $  ln -s ~/matter <path to ur copied location>/third_party/connectedhomeip
                    $  ln -s ~/matter/examples/build_overrides <path to ur copied location>/build_overrides
    3.   **Build the example**
-          -Go to matter folder in terminal
+          - Go to matter folder in terminal
               
              $ cd <path to matter folder>                
              $ source scripts/activate.sh
+
+          - Go to your example folder 
+
+             $ gn gen out/debug --args="ti_sysconfig_root=\"$HOME/ti/sysconfig_1.15.0\""
+             $ ninja -C out/debug
    
    4.    Flash the build to ur **Custom Board** (cofirm it is connected to pc)
        
@@ -187,6 +192,5 @@ follow the link  https://www.tecmint.com/reset-forgotten-root-password-in-ubuntu
    **Refer**
       1.    https://dev.ti.com/tirex/explore/node?node=A__AciOYyNq9gli.nsvJzBtQg__com.ti.SIMPLELINK_ACADEMY_CC13XX_CC26XX_SDK__AfkT0vQ__LATEST
       2.    https://jerome-silabs.github.io/SE_FAE_team/OpenThread/Applications/OpenThread_Border_Router/create_network.html#creating-network-using-the-web-user-interface
-
 
                
