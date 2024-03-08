@@ -171,14 +171,16 @@ follow the link  https://www.tecmint.com/reset-forgotten-root-password-in-ubuntu
                    $  ln -s ~/matter <path to ur copied location>/third_party/connectedhomeip
                    $  ln -s ~/matter/examples/build_overrides <path to ur copied location>/build_overrides
    3.   **Build the example**
-          - Go to matter folder in terminal
+
+          - **Go to matter folder in terminal**
               
              $ cd <path to matter folder>                
              $ source scripts/activate.sh
 
-          - Go to your example folder 
+          - **Go to your example folder** 
 
              $ gn gen out/debug --args="ti_sysconfig_root=\"$HOME/ti/sysconfig_1.15.0\""
+
              $ ninja -C out/debug
    
    4.    Flash the build to ur **Custom Board** (cofirm it is connected to pc)
