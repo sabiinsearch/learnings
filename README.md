@@ -180,7 +180,6 @@ follow the link  https://www.tecmint.com/reset-forgotten-root-password-in-ubuntu
           - **Go to your example folder** 
 
              $ gn gen out/debug --args="ti_sysconfig_root=\"$HOME/ti/sysconfig_1.15.0\""
-
              $ ninja -C out/debug
    
    4.    Flash the build to ur **Custom Board** (cofirm it is connected to pc)
