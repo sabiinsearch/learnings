@@ -1,4 +1,9 @@
+## My Promps
 
+      1. Help me to install and create Docker container for MySQL 
+
+      2. Help me create CRUD (Create, Delete, Update and Delete) operations using Java Spring framework and my sql at backend
+      
 ## Learnings
 
 ## Adding reposiory to git
