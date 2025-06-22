@@ -1,8 +1,8 @@
 ## My Promps
 
-      -      Help me to install and create Docker container for MySQL 
+      -   Help me to install and create Docker container for MySQL 
 
-      -      Help me create CRUD (Create, Delete, Update and Delete) operations using Java Spring framework and my sql at backend
+      -   Help me create CRUD (Create, Delete, Update and Delete) operations using Java Spring framework and my sql at backend
       
 ## Learnings
 
