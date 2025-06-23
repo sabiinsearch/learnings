@@ -19,8 +19,8 @@ fi
 if docker ps -a | grep -q "mysql-server";then
    echo "mysql-server already exist"
 else
-   docker run --name mysql-server --network myDocker_net_1 -v mysql-data:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=my-secret-pw -d -p 3306:3306 mysql:latest
+   docker run --name mysql-server --network myDocker_net -v mysql-data:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=my-secret-pw -d -p 3306:3306 mysql:latest
 fi
 
 ## Create SQL client in same network
-docker run -it --rm --network myDocker_net_1 mysql:8.0 mysql -h mysql-server -u root -p
+docker run -it --rm --network myDocker_net mysql:8.0 mysql -h mysql-server -u root -p
