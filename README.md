@@ -52,7 +52,7 @@
 
       docker run -it --rm --network my-sql-net mysql:8.0 mysql -h mysql-server -u root -p
 
-## My Promps for Google AI Studio
+## My Prompts for Google AI Studio
 
       -   Help me to install and create Docker container for MySQL 
 
