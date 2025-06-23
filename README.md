@@ -1,19 +1,51 @@
 ## Learnings
 
+## Installing Docker in Ubuntu(OS)
+   #### Step 1: Update Your System
+     
+     sudo apt update
+     sudo apt upgrade -y
+   #### Step 2: Install Prerequisites
+      
+      sudo apt install apt-transport-https ca-certificates curl software-properties-common -y
+
+   #### Step 3: Add Docker's Official GPG Key
+   
+      curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
+      
+   #### Step 4: Add the Docker Repository
+   
+      echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null   
+
+   #### Step 5: Install Docker Engine
+   
+     sudo apt update
+     sudo apt install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin -y
+     
+   #### Step 6: Verify the Installation
+     
+     sudo docker run hello-world
+   #### (Highly Recommended) Post-Installation Step: Run Docker without sudo
+
+     Add your user to the docker group:
+
+    sudo usermod -aG docker ${USER}
+    
+        (The ${USER} variable will automatically be replaced with your current username).
 ## Learning Docker
 
       Summary (TL;DR)
 ## Create Network:
 
-   ###### docker network create my-sql-net
+      docker network create my-sql-net
 
 ## Run Server:
 
-   ###### docker run --name mysql-server --network my-sql-net -e MYSQL_ROOT_PASSWORD=my-secret-pw -d mysql:8.0
+      docker run --name mysql-server --network my-sql-net -e MYSQL_ROOT_PASSWORD=my-secret-pw -d mysql:8.0
       
 ## Run Client:
 
-   ###### docker run -it --rm --network my-sql-net mysql:8.0 mysql -h mysql-server -u root -p
+      docker run -it --rm --network my-sql-net mysql:8.0 mysql -h mysql-server -u root -p
 
 ## My Promps for Google AI Studio
 
