@@ -32,7 +32,12 @@
     sudo usermod -aG docker ${USER}
     
         (The ${USER} variable will automatically be replaced with your current username).
-## Learning Docker
+   #### IMPORTANT: For this change to take effect, you must log out and log back in, or reboot your system. A simpler way is to activate the changes for your current terminal session with this command:
+
+       newgrp docker    
+
+       
+# Learning Docker
 
       Summary (TL;DR)
 ## Create Network:
