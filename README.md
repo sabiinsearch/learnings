@@ -1,10 +1,26 @@
-## My Promps
+## Learnings
+
+## Learning Docker
+
+      Summary (TL;DR)
+## Create Network:
+
+   ###### docker network create my-sql-net
+
+## Run Server:
+
+   ###### docker run --name mysql-server --network my-sql-net -e MYSQL_ROOT_PASSWORD=my-secret-pw -d mysql:8.0
+      
+## Run Client:
+
+   ###### docker run -it --rm --network my-sql-net mysql:8.0 mysql -h mysql-server -u root -p
+
+## My Promps for Google AI Studio
 
       -   Help me to install and create Docker container for MySQL 
 
       -   Help me create CRUD (Create, Delete, Update and Delete) operations using Java Spring framework and my sql at backend
       
-## Learnings
 
 ## Adding reposiory to git
 
